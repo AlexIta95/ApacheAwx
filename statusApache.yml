@@ -1,8 +1,12 @@
-- name : Apache status
-  hosts : all
-  tasks :
-    - name : status Apache
-    - debug :
+- name: Apache status                      
+  hosts: all
+  tasks:
+    - name: status Apache
+    - debug:
         msg: "Hello World!"
         
+        
+        
+          
+
    
