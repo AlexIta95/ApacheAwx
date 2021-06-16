@@ -1,6 +1,5 @@
 - name : Apache status
   hosts : all
-  become : true
   tasks :
     - name : status Apache
       service_facts:
