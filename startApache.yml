@@ -1,5 +1,5 @@
 ---
-- name: Apache stop
+- name: Apache start
 
   hosts: all
 
@@ -8,7 +8,7 @@
 
   tasks:
 
-    - name: Stop apache
+    - name: Stop start
 
       service:
 
