@@ -4,4 +4,4 @@
     - name : status Apache
       service_facts:
     - debug :
-         var : ansible_facts.services.apache2.state
+        
