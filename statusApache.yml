@@ -1,16 +1,6 @@
-- name : Apache status
-
-  hosts : all
-
-  become : true
-
-
-  tasks :
-
-    - name : status Apache
-
-      service_facts:
-
-    - debug :
-
-         var : ansible_facts.services.apache2.state
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
