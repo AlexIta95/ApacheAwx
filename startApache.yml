@@ -8,7 +8,7 @@
 
   tasks:
 
-    - name: Stop start
+    - name: Apache start
 
       service:
 
